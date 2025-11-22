@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.main-heading {
+    color: darkorange;
+    font-size: 38px;
+    margin-top: 40px;
+}
+
+.sub-heading {
+    color: purple;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    border: 2px solid green;
+}
+
+/* Table Head */
+.table-head th {
+
+    background-color: greenyellow;
+    padding: 12px;
+    font-size: 17px;
+    border: 1px solid green; 
+}
+
+td {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid green;
+}
+
+.footer {
+    margin-top: 30px;
+    color: green;
+    font-size: 16px;
+}
